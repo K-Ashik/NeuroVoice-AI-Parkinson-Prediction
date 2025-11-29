@@ -22,7 +22,7 @@ Most voice AI models fail outside the lab because they confuse **Microphone Nois
 ---
 
 ## 📸 Interface
-![App Interface](assets/app_screenshot.png)
+![App Interface](assets/app_screenshot.jpg)
 *The dashboard features a dynamic Risk Gauge, real-time Biomarker Cards (Jitter/Shimmer), and a downloadable Clinical Report.*
 
 ---
