@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+praat-parselmouth
+joblib
+xgboost
+shap
+matplotlib
+plotly
