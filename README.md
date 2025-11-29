@@ -57,6 +57,8 @@ weighted avg       0.90      0.90      0.90        39
 
 *The model correctly identified 27/29 Parkinson's patients and 8/10 Healthy controls in the blind test set.*
 
+![Confusion Matrix](assests/confusion_matrix.png)
+
 -----
 
 ## 🔬 Data Science Workflow
@@ -66,6 +68,9 @@ weighted avg       0.90      0.90      0.90        39
 Before training, I used **t-SNE (t-Distributed Stochastic Neighbor Embedding)** to visualize the high-dimensional data in 2D.
 
   * **Insight:** The clear separation between Healthy (Green) and PD (Red) clusters confirmed that vocal features contain a strong predictive signal, validating the feasibility of an ML approach.
+
+![t-SNE](assests/04_tsne_clusters.png)
+
 
 ### 2\. Feature Engineering
 
@@ -78,8 +83,10 @@ Before training, I used **t-SNE (t-Distributed Stochastic Neighbor Embedding)** 
 Medical AI must be transparent. I used **SHAP (SHapley Additive exPlanations)** to break down *why* the model made a specific decision.
 
   * **Top Predictor:** **PPE (Pitch Period Entropy)** and **Spread1** were identified as the strongest biomarkers for Parkinson's, aligning with clinical literature on vocal rigidity.
-
 -----
+
+![Shap](assests/shap_summary.png)
+
 
 ## 🛠️ Tech Stack
 
